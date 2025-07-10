@@ -4,7 +4,7 @@ import pandas as pd
 import joblib
 
 # Load model
-model = joblib.load('/model/random_forest_genset.pkl')
+model = joblib.load('model/random_forest_genset.pkl')
 scaler = joblib.load('scaler.pkl')
 le = joblib.load('label_encoder.pkl')
 
